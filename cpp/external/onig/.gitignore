@@ -5,7 +5,7 @@ stamp-h1
 configure
 config.status
 config.log
-config.h
+#config.h
 config.h.in
 onig-config
 libtool
@@ -16,7 +16,7 @@ Makefile.in
 *.so
 *.lo
 *.la
-*.pc
+#*.pc
 *~
 .libs/
 .deps/

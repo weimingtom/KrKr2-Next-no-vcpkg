@@ -1,0 +1,116 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "krkr2",
+  "version-string": "1.5.0",
+  "dependencies": [
+    "7zip",
+    {
+      "name": "argparse",
+      "platform": "linux | windows | osx"
+    },
+    "boost-iostreams",
+    {
+      "name": "boost-locale",
+      "default-features": false
+    },
+    "bullet3",
+    "boost-phoenix",
+    "boost-spirit",
+    {
+      "name": "breakpad",
+      "default-features": false,
+      "platform": "android"
+    },
+    {
+      "name": "catch2",
+      "default-features": false,
+      "platform": "!android & !ios"
+    },
+    "minizip",
+    "tinyxml2",
+    {
+      "name": "angle",
+      "default-features": false,
+      "features": [
+        "metal"
+      ],
+      "platform": "osx | ios"
+    },
+    {
+      "name": "angle",
+      "default-features": false,
+      "features": [
+        "vulkan"
+      ],
+      "platform": "linux | windows | android"
+    },
+    {
+      "name": "dirent",
+      "platform": "windows"
+    },
+    "ffmpeg",
+    "fmt",
+    "jxrlib",
+    "libarchive",
+    "libxml2",
+    {
+      "name": "libgdiplus",
+      "platform": "!windows"
+    },
+    "libjpeg-turbo",
+    {
+      "name": "libogg",
+      "platform": "android"
+    },
+    {
+      "name": "libpng",
+      "platform": "!linux"
+    },
+    "libvorbis",
+    "libwebp",
+    "lz4",
+    {
+      "name": "oboe",
+      "platform": "android"
+    },
+    "oniguruma",
+    "openal-soft",
+    {
+      "name": "opencv4",
+      "default-features": false,
+      "features": [
+        {
+          "name": "openmp",
+          "platform": "!ios"
+        }
+      ]
+    },
+    {
+      "name": "opus",
+      "platform": "android"
+    },
+    {
+      "name": "opusfile",
+      "default-features": false
+    },
+    {
+      "name": "sdl2",
+      "default-features": false
+    },
+    "spdlog",
+    "highway",
+    "uchardet",
+    "unrar",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    "zstd"
+  ],
+  "overrides": [
+    {
+      "name": "opencv4",
+      "version": "4.7.0#6"
+    }
+  ]
+}

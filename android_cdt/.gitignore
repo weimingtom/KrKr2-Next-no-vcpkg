@@ -1,0 +1,8 @@
+bin
+gen
+obj
+libs/arm64-v8a/*.so
+libs/armeabi-v7a/*.so
+libs/armeabi/*.so
+libs/x86/*.so
+libs/x86_64/*.so

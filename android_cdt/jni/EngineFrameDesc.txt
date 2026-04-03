@@ -1,0 +1,33 @@
+Compiled from "EngineFrameDesc.java"
+public class org.github.krkr2.flutter_engine_bridge.EngineFrameDesc {
+  public int structSize;
+    descriptor: I
+  public int width;
+    descriptor: I
+  public int height;
+    descriptor: I
+  public int strideBytes;
+    descriptor: I
+  public int pixelFormat;
+    descriptor: I
+  public long frameSerial;
+    descriptor: J
+  public long reservedU640;
+    descriptor: J
+  public long reservedU641;
+    descriptor: J
+  public long reservedU642;
+    descriptor: J
+  public long reservedU643;
+    descriptor: J
+  public long reservedPtr0;
+    descriptor: J
+  public long reservedPtr1;
+    descriptor: J
+  public long reservedPtr2;
+    descriptor: J
+  public long reservedPtr3;
+    descriptor: J
+  public org.github.krkr2.flutter_engine_bridge.EngineFrameDesc();
+    descriptor: ()V
+}

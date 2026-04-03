@@ -1,0 +1,57 @@
+Compiled from "EngineMemoryStats.java"
+public class org.github.krkr2.flutter_engine_bridge.EngineMemoryStats {
+  public int structSize;
+    descriptor: I
+  public int selfUsedMb;
+    descriptor: I
+  public int systemFreeMb;
+    descriptor: I
+  public int systemTotalMb;
+    descriptor: I
+  public long graphicCacheBytes;
+    descriptor: J
+  public long graphicCacheLimitBytes;
+    descriptor: J
+  public long xp3SegmentCacheBytes;
+    descriptor: J
+  public long psbCacheBytes;
+    descriptor: J
+  public int psbCacheEntries;
+    descriptor: I
+  public int psbCacheEntryLimit;
+    descriptor: I
+  public long psbCacheHits;
+    descriptor: J
+  public long psbCacheMisses;
+    descriptor: J
+  public int archiveCacheEntries;
+    descriptor: I
+  public int archiveCacheLimit;
+    descriptor: I
+  public int autopathCacheEntries;
+    descriptor: I
+  public int autopathCacheLimit;
+    descriptor: I
+  public int autopathTableEntries;
+    descriptor: I
+  public int reservedU32;
+    descriptor: I
+  public long reservedU640;
+    descriptor: J
+  public long reservedU641;
+    descriptor: J
+  public long reservedU642;
+    descriptor: J
+  public long reservedU643;
+    descriptor: J
+  public long reservedPtr0;
+    descriptor: J
+  public long reservedPtr1;
+    descriptor: J
+  public long reservedPtr2;
+    descriptor: J
+  public long reservedPtr3;
+    descriptor: J
+  public org.github.krkr2.flutter_engine_bridge.EngineMemoryStats();
+    descriptor: ()V
+}

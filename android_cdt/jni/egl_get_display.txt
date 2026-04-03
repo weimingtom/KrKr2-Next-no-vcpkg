@@ -1,0 +1,61 @@
+cpp\core\visual\ogl\krkr_egl_context.cpp
+https://blog.csdn.net/github5actions/article/details/156179431
+don't use fallback code, use display = eglGetDisplay(EGL_DEFAULT_DISPLAY); directly
+
+
+
+EGLDisplay EGLContextManager::AcquireAngleDisplay(AngleBackend& backend, void *window) {
+#if defined(__ANDROID__)
+    EGLint angleType = (backend == AngleBackend::Vulkan)
+        ? EGL_PLATFORM_ANGLE_TYPE_VULKAN_ANGLE
+        : EGL_PLATFORM_ANGLE_TYPE_OPENGLES_ANGLE;
+    EGL_LOGI("AcquireAngleDisplay: trying eglGetPlatformDisplayEXT backend=%s",
+             backend == AngleBackend::Vulkan ? "Vulkan" : "OpenGLES");
+    auto eglGetPlatformDisplayEXT_ =
+        reinterpret_cast<PFNEGLGETPLATFORMDISPLAYEXTPROC>(
+            eglGetProcAddress("eglGetPlatformDisplayEXT"));
+
+ EGL_LOGI("AcquireAngleDisplay: eglGetPlatformDisplayEXT == %p", eglGetPlatformDisplayEXT_);
+
+	EGLDisplay display = EGL_NO_DISPLAY;
+#if MY_USE_MINLIB
+//android skip here
+#else
+    if (eglGetPlatformDisplayEXT_) {
+        const EGLint displayAttribs[] = {
+            EGL_PLATFORM_ANGLE_TYPE_ANGLE,
+            angleType,
+            EGL_NONE
+        };
+        display = eglGetPlatformDisplayEXT_(
+            EGL_PLATFORM_ANGLE_ANGLE, window/*EGL_DEFAULT_DISPLAY*/, displayAttribs);
+        EGL_LOGI("AcquireAngleDisplay: eglGetPlatformDisplayEXT returned %p", display);
+    }
+    // Fallback: if Vulkan backend failed, retry with OpenGL ES
+#if MY_USE_MINLIB
+    if (display == EGL_NO_DISPLAY && eglGetPlatformDisplayEXT_) {
+#else	
+    if (display == EGL_NO_DISPLAY && backend == AngleBackend::Vulkan && eglGetPlatformDisplayEXT_) {
+#endif
+		EGL_LOGI("AcquireAngleDisplay: Vulkan backend failed, falling back to OpenGL ES");
+        backend = AngleBackend::OpenGLES;
+        const EGLint fallbackAttribs[] = {
+            EGL_PLATFORM_ANGLE_TYPE_ANGLE,
+            EGL_PLATFORM_ANGLE_TYPE_OPENGLES_ANGLE,
+            EGL_NONE
+        };
+        display = eglGetPlatformDisplayEXT_(
+            EGL_PLATFORM_ANGLE_ANGLE, window/*EGL_DEFAULT_DISPLAY*/, fallbackAttribs);
+        EGL_LOGI("AcquireAngleDisplay: fallback eglGetPlatformDisplayEXT returned %p", display);
+    }
+#endif
+    if (display == EGL_NO_DISPLAY) {
+        EGL_LOGI("AcquireAngleDisplay: fallback to eglGetDisplay(EGL_DEFAULT_DISPLAY)");
+        display = eglGetDisplay(EGL_DEFAULT_DISPLAY);
+    }
+    return display;
+#else
+    (void)backend;
+    return eglGetDisplay(EGL_DEFAULT_DISPLAY);
+#endif
+}

@@ -1,0 +1,7 @@
+adb logcat -s krkr2:D
+
+ndk-build clean
+ndk-build NDK_DEBUG=1 -j8
+ndk-stack -sym ../obj/local/arm64-v8a -dump aaa.txt  > aaa2.txt
+
+

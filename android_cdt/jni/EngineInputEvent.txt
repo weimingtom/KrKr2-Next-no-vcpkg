@@ -1,0 +1,39 @@
+Compiled from "EngineInputEvent.java"
+public class org.github.krkr2.flutter_engine_bridge.EngineInputEvent {
+  public int structSize;
+    descriptor: I
+  public int type;
+    descriptor: I
+  public long timestampMicros;
+    descriptor: J
+  public double x;
+    descriptor: D
+  public double y;
+    descriptor: D
+  public double deltaX;
+    descriptor: D
+  public double deltaY;
+    descriptor: D
+  public int pointerId;
+    descriptor: I
+  public int button;
+    descriptor: I
+  public int keyCode;
+    descriptor: I
+  public int modifiers;
+    descriptor: I
+  public int unicodeCodepoint;
+    descriptor: I
+  public int reservedU32;
+    descriptor: I
+  public long reservedU640;
+    descriptor: J
+  public long reservedU641;
+    descriptor: J
+  public long reservedPtr0;
+    descriptor: J
+  public long reservedPtr1;
+    descriptor: J
+  public org.github.krkr2.flutter_engine_bridge.EngineInputEvent();
+    descriptor: ()V
+}

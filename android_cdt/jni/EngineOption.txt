@@ -1,0 +1,17 @@
+Compiled from "EngineOption.java"
+public class org.github.krkr2.flutter_engine_bridge.EngineOption {
+  public java.lang.String keyUtf8;
+    descriptor: Ljava/lang/String;
+  public java.lang.String valueUtf8;
+    descriptor: Ljava/lang/String;
+  public long reservedU640;
+    descriptor: J
+  public long reservedU641;
+    descriptor: J
+  public long reservedPtr0;
+    descriptor: J
+  public long reservedPtr1;
+    descriptor: J
+  public org.github.krkr2.flutter_engine_bridge.EngineOption();
+    descriptor: ()V
+}

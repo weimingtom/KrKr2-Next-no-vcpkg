@@ -1,41 +1,29 @@
-# Prerequisites
-*.d
+# build target
+/**/cmake-build-android/
+/**/cmake-build-android-release/
+/**/cmake-build-android-debug/
+/**/build/
+/**/out/
+/**/bin/
+vcpkg_installed/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+.idea/
+.vscode/
+.vs/
+.gradle/
+.act/
+.devtools
+*.md
+*.lock
+/stats_server
+local.properties
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
+java_pid*.hprof
+.DS_Store
 *.pdb
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# Cubism SDK (proprietary binary, download from live2d.com)
+cpp/plugins/cubism/Core/lib/
+cpp/plugins/cubism/Framework/
+bridge/flutter_engine_bridge/ios/Libs/*.a
+apps/flutter_app/devtools_options.yaml

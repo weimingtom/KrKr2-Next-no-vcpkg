@@ -1,0 +1,31 @@
+Compiled from "EngineCreateDesc.java"
+public class org.github.krkr2.flutter_engine_bridge.EngineCreateDesc {
+  public int structSize;
+    descriptor: I
+  public int apiVersion;
+    descriptor: I
+  public java.lang.String writablePathUtf8;
+    descriptor: Ljava/lang/String;
+  public java.lang.String cachePathUtf8;
+    descriptor: Ljava/lang/String;
+  public long userData;
+    descriptor: J
+  public long reservedU640;
+    descriptor: J
+  public long reservedU641;
+    descriptor: J
+  public long reservedU642;
+    descriptor: J
+  public long reservedU643;
+    descriptor: J
+  public long reservedPtr0;
+    descriptor: J
+  public long reservedPtr1;
+    descriptor: J
+  public long reservedPtr2;
+    descriptor: J
+  public long reservedPtr3;
+    descriptor: J
+  public org.github.krkr2.flutter_engine_bridge.EngineCreateDesc();
+    descriptor: ()V
+}

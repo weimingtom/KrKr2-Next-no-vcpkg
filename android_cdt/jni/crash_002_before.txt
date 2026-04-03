@@ -1,0 +1,294 @@
+03-25 11:15:53.029  1004  1059 E AAL     : [ERROR] Kernel does not support AAL, please enable CONFIG_MTK_AAL_SUPPORT in kconfig.
+03-25 11:15:53.212  1373  1595 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:54.217  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:55.224  1373  1595 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:56.230  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:57.237  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:58.029  1004  1059 E AAL     : [ERROR] Kernel does not support AAL, please enable CONFIG_MTK_AAL_SUPPORT in kconfig.
+03-25 11:15:58.244  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:15:59.251  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:00.256  1373  1595 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:01.263  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:02.269  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:03.030  1004  1059 E AAL     : [ERROR] Kernel does not support AAL, please enable CONFIG_MTK_AAL_SUPPORT in kconfig.
+03-25 11:16:03.276  1373  1595 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:03.773   738   863 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+03-25 11:16:03.787   738   863 E BufferQueueDebug: [ColorFade BLAST#0](this:0xb400007eff9bf8e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'ColorFade BLAST#0'
+03-25 11:16:03.965   654  1926 E traffic : remove TrafficMobileLimiter whitelist 10070
+03-25 11:16:04.008  1373  1417 E system_server: Cannot read thread CPU times for PID 1373
+03-25 11:16:04.050  1373  1417 E system_server: Cannot read thread CPU times for PID 1373
+03-25 11:16:04.055  2034  2144 E OpenGLRenderer: EglManager::makeCurrent mED = 0xb400007c0920f580, surface = 0x0, mEC = 0xb400007ab9b1f900, error = EGL_SUCCESS
+03-25 11:16:04.072   654  1926 E traffic : add TrafficMobileLimiter whitelist 10070
+03-25 11:16:04.101  1711  1738 E MiuiKeyguardWallpaperWindow: mWallapperType:PICTORIAL type:PICTORIAL
+03-25 11:16:04.112  2034  2034 E RotationHelper: setCurrentTransitionRequest: request=0
+03-25 11:16:04.120  2034  2408 E ActivityManagerWrapper: get all recent tasks force including 2
+03-25 11:16:04.122   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: size=11
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36823   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36814   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36813   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/.AlipayLogin }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36812   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10300000 cmp=com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36800   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36806   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+03-25 11:16:04.131  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36810   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.baidu.tieba/.tblauncher.MainTabActivity }
+03-25 11:16:04.132  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36809   userId=0   baseIntent=Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.item/text_note flg=0x34000000 pkg=com.miui.notes cmp=com.miui.notes/.ui.NotesListActivity }
+03-25 11:16:04.132  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36803   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.alibaba.android.rimet/.biz.LaunchHomeActivity }
+03-25 11:16:04.132  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36804   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sina.weibo/.SplashActivity }
+03-25 11:16:04.132  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36801   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jingyao.easybike/com.hellobike.atlas.business.portal.PortalActivity }
+03-25 11:16:04.133   654  1926 E traffic : remove TrafficMobileLimiter whitelist 10070
+03-25 11:16:04.148  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:04.149  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:04.166  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:04.166  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:04.173  1373  1393 E SensorService: CL_L  VirtualAlspscanAccess packet:com.android.server.wm.WindowOrientationListener use Sensorname:DEVICE_ORIENTATION
+03-25 11:16:04.178   738   863 E BufferQueueDebug: [NotificationShade#0](this:0xb400007effa018e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'NotificationShade#0'
+03-25 11:16:04.198   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:04.217  2034  2144 E OpenGLRenderer: EglManager::makeCurrent mED = 0xb400007c0920f580, surface = 0x0, mEC = 0xb400007ab9b1f900, error = EGL_SUCCESS
+03-25 11:16:04.222   690   711 E mtkpower@impl: [setMode] unknown type
+03-25 11:16:04.222   690   711 E mtkpower@impl: [setMode] unknown type
+03-25 11:16:04.283  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:04.293  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:04.295  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:04.314  2034  2408 E ActivityManagerWrapper: get all recent tasks force including 2
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: size=11
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36823   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36814   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36813   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/.AlipayLogin }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36812   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10300000 cmp=com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36800   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36806   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+03-25 11:16:04.317  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36810   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.baidu.tieba/.tblauncher.MainTabActivity }
+03-25 11:16:04.318  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36809   userId=0   baseIntent=Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.item/text_note flg=0x34000000 pkg=com.miui.notes cmp=com.miui.notes/.ui.NotesListActivity }
+03-25 11:16:04.318  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36803   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.alibaba.android.rimet/.biz.LaunchHomeActivity }
+03-25 11:16:04.318  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36804   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sina.weibo/.SplashActivity }
+03-25 11:16:04.318  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36801   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jingyao.easybike/com.hellobike.atlas.business.portal.PortalActivity }
+03-25 11:16:04.403  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_698 use Sensorname:camera_light_Sensor
+03-25 11:16:04.423  9613  9613 E FACTORY_BIN: start pocket service
+03-25 11:16:04.515  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:04.517  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:04.663  9613  9613 E FACTORY_BIN: C3T pocketmode
+03-25 11:16:04.664  9613  9613 E FACTORY_BIN: screen !incell,vendor:31,IC:03
+03-25 11:16:04.664  9613  9613 E FACTORY_BIN: screen 2
+03-25 11:16:04.665  9613  9613 E FACTORY_BIN: open PocketMode success!1
+03-25 11:16:04.792  7830  7914 E VoiceTrigger:ForceDoze: ACTION_SCREEN_OFF:android.intent.action.SCREEN_OFF
+03-25 11:16:04.891  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:04.898  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:05.043  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:05.043  2010  2010 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+03-25 11:16:05.046  2010  2010 E KeyguardViewMediator: mHideAnimationFinishedRunnable#run: mHideAnimationRun - true
+03-25 11:16:05.055   654  1926 E traffic : add TrafficMobileLimiter whitelist 10070
+03-25 11:16:05.087   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:05.100   738  2580 E BufferQueueDebug: [com.miui.home/com.miui.home.launcher.Launcher#0](this:0xb400007eff92a8e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'com.miui.home/com.miui.home.launcher.Launcher#0'
+03-25 11:16:05.193  2034  2034 E RotationHelper: setCurrentTransitionRequest: request=0
+03-25 11:16:05.193  2034  2034 E RotationHelper: setCurrentTransitionRequest: request=0
+03-25 11:16:05.231   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:05.260  7830  7914 E VoiceTrigger:ForceDoze: ACTION_SCREEN_ON:android.intent.action.SCREEN_ON
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils: startScan error
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils: java.lang.NoSuchMethodException: android.net.wifi.IWifiManager$Stub$Proxy.startScan [class java.lang.String]
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.lang.Class.getMethod(Class.java:2103)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.lang.Class.getDeclaredMethod(Class.java:2081)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at lf.f.d(Unknown Source:4)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at com.miui.appmanager.AppManageUtils.E0(Unknown Source:88)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at g3.b$a.a(Unknown Source:29)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at g3.b$a.doInBackground(Unknown Source:2)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at android.os.AsyncTask$3.call(AsyncTask.java:394)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+03-25 11:16:05.281  3300  9459 E com.miui.appmanager.AppManageUtils:    at java.lang.Thread.run(Thread.java:920)
+03-25 11:16:05.286  7830  7914 E VoiceTrigger:ForceDoze: ACTION_USER_PRESENT:android.intent.action.USER_PRESENT
+03-25 11:16:05.288  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:05.388  9654  9654 E FACTORY_BIN: start pocket service
+03-25 11:16:05.628  9654  9654 E FACTORY_BIN: C3T pocketmode
+03-25 11:16:05.628  9654  9654 E FACTORY_BIN: screen !incell,vendor:31,IC:03
+03-25 11:16:05.629  9654  9654 E FACTORY_BIN: screen 2
+03-25 11:16:05.629  9654  9654 E FACTORY_BIN: open PocketMode success!0
+03-25 11:16:05.791  1665  5298 E BtGatt.GattService:  [Landroid.content.pm.ServiceInfo;@ac97e41
+03-25 11:16:05.833  1665  2110 E bt_btm  : system/bt/main/bte_logmsg.cc:195 LogMsg: BTM_BleObserve Observe Already Active
+03-25 11:16:05.833  1665  2110 E bt_btm  : system/bt/main/bte_logmsg.cc:195 LogMsg: BTM_BleObserve Observe Already Active
+03-25 11:16:05.843  8878  8878 E IDM-BleBackGround: MiConnect bind MiNearby background enter
+03-25 11:16:05.848  8878  8878 E IDM-BleBackGround: MiConnect bind MiNearby background success
+03-25 11:16:05.850  8878  8878 E IDM-BleBackGround: MiConnect bind MiNearby: 0
+03-25 11:16:05.909   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:05.909   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:05.910   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:05.910   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:05.953   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:05.953   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:05.955   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:05.955   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.130   690   798 E UxUtility: notifyAppState error = NULL
+03-25 11:16:06.206   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:06.243   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.243   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.244   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.244   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.263  7830  7914 E VA_LegacyVoiceTriggerUtil:BSPVendor: voicetrigger not installed !
+03-25 11:16:06.264  7830  7914 E VoiceTrigger:ForceDoze: SecurityCenterHelper.getUserId:0
+03-25 11:16:06.290  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:06.472   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:06.528   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.528   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.530   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.530   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.721   690   710 E libPowerHal: Could not open '/proc/970/comm'
+03-25 11:16:06.775   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.775   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:06.777   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:06.777   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:07.105  8040  8734 E u4native: [InfoLevelMessage] [INFO:not_a_file.cc(0)] BrowserIOThread heartbeat, pid/tid: 8040/8734, interval/index: 30s/5, ucCoreSoImplVersion: 5.12.6.0_241014150015
+03-25 11:16:07.106  8040  8740 E u4native: [InfoLevelMessage] [INFO:not_a_file.cc(0)] NetworkServiceThread heartbeat, pid/tid: 8040/8740, interval/index: 30s/5
+03-25 11:16:07.201   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:07.201   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:07.203   690   798 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_ui_ctrl'
+03-25 11:16:07.203   690   798 E libPowerHal: error : 2, No such file or directory
+03-25 11:16:07.293  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:07.580  2034  2034 E QuickstepAppTransitionManagerImpl: getActivityLaunchOptions   iconLoc=Rect(220, 1115 - 338, 1233)
+03-25 11:16:07.629   738  2747 E BufferQueueDebug: [Splash Screen org.github.krkr2.flutter_app_test2#0](this:0xb400007effefb8e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Splash Screen org.github.krkr2.flutter_app_test2#0'
+03-25 11:16:07.681  2034 17192 E LauncherAnimationRunner: onAnimationStart
+03-25 11:16:07.681  2034 17192 E LauncherAnimationRunner: onAnimationStart:   mode=1   taskId=2   isTranslucent=false
+03-25 11:16:07.681  2034 17192 E LauncherAnimationRunner: onAnimationStart:   mode=0   taskId=36824   isTranslucent=false
+03-25 11:16:07.682  2034  2034 E QuickstepAppTransitionManagerImpl: startIconLaunchAnimator:launcherClosing=true   iconLoc=Rect(220, 1115 - 338, 1233)
+03-25 11:16:07.682  2034  2034 E QuickstepAppTransitionManagerImpl: startOpeningWindowAnimators:iconLoc=Rect(220, 1115 - 338, 1233)
+03-25 11:16:07.682  2034  2034 E ClipAnimationHelper: updateSourceStack  mSourceInsets=Rect(0, 49 - 0, 356), mSourceStackBounds=Rect(0, 0 - 720, 1650)
+03-25 11:16:07.682  2034  2034 E ClipAnimationHelper: updateHomeStack  mSourceInsets=Rect(0, 49 - 0, 356), mHomeStackBounds=Rect(0, 0 - 720, 1650)
+03-25 11:16:07.682  2034  2034 E ClipAnimationHelper: updateTargetRect  mSourceRect=RectF(0.0, 49.0, 720.0, 1699.0)   mTargetRect=RectF(0.0, 0.0, 720.0, 1650.0)   mSourceWindowClipInsets=RectF(0.0, 49.0, 0.0, 0.0)   mHomeStackBounds=Rect(0, 0 - 720, 1650)   targetRect=Rect(0, 0 - 720, 1650)
+03-25 11:16:07.683  2034  2034 E QuickstepAppTransitionManagerImpl: startLauncherContentAnimator:isAppOpening=true
+03-25 11:16:07.721   690   798 E UxUtility: notifyAppState error = NULL
+03-25 11:16:07.725   654  1926 E traffic : add TrafficMobileLimiter whitelist 10435
+03-25 11:16:07.733  2034  2408 E ActivityManagerWrapper: get all recent tasks force including 36824
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: size=11
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36824   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36814   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.taobao.idlefish/com.taobao.fleamarket.home.activity.InitActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36813   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/.AlipayLogin }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36812   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10300000 cmp=com.yek.android.kfc.activitys/com.yum.brandkfc.SplashAct }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36800   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36806   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36810   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.baidu.tieba/.tblauncher.MainTabActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36809   userId=0   baseIntent=Intent { act=android.intent.action.VIEW typ=vnd.android.cursor.item/text_note flg=0x34000000 pkg=com.miui.notes cmp=com.miui.notes/.ui.NotesListActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36803   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.alibaba.android.rimet/.biz.LaunchHomeActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36804   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.sina.weibo/.SplashActivity }
+03-25 11:16:07.736  2034  2408 E ActivityManagerWrapper: getRecentTasks: taskId=36801   userId=0   baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.jingyao.easybike/com.hellobike.atlas.business.portal.PortalActivity }
+03-25 11:16:07.828  9660  9682 E QT      : [QT]file does not exist
+03-25 11:16:07.840  2034  2034 E LauncherAnimationRunner: finish: mFinishRunnable.run
+03-25 11:16:07.857  2034  2144 E OpenGLRenderer: EglManager::makeCurrent mED = 0xb400007c0920f580, surface = 0x0, mEC = 0xb400007ab9b1f900, error = EGL_SUCCESS
+03-25 11:16:07.871  9660  9660 I krkr2   : krkr2 JNI_OnLoad: JavaVM stored
+03-25 11:16:07.935  9660  9660 E MiuiMultiWindowUtils: initFreeFormResolutionArgs failed, device is earth
+03-25 11:16:08.028  9660  9660 I krkr2   : nativeSetApplicationContext: Application Context stored
+03-25 11:16:08.030  1004  1059 E AAL     : [ERROR] Kernel does not support AAL, please enable CONFIG_MTK_AAL_SUPPORT in kconfig.
+03-25 11:16:08.096   738  2747 E BufferQueueDebug: [org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity#0](this:0xb400007efffcf8e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity#0'
+03-25 11:16:08.116   738  2580 E BufferQueueDebug: [SurfaceView[org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity](BLAST)#0](this:0xb400007f072428e0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceView[org.github.krkr2.flutter_app_test2/org.github.krkr2.flutter_app.MainActivity](BLAST)#0'
+03-25 11:16:08.118  9660  9680 E OpenGLRenderer: EglManager::makeCurrent mED = 0xb400007c0920f580, surface = 0x0, mEC = 0x7adb604a80, error = EGL_SUCCESS
+03-25 11:16:08.119  9660  9660 I krkr2   : surfaceChanged
+03-25 11:16:08.120  9660  9660 I krkr2   : nativeSetSurface: ANativeWindow acquired (656x1179)
+03-25 11:16:08.120  9660  9660 I krkr2   : plugin.nativeSetSurface: size=656x1179
+03-25 11:16:08.121  9660  9702 I krkr2   : api_version == 1000000
+03-25 11:16:08.122  9660  9702 I krkr2   : engine_get_memory_stats 1
+03-25 11:16:08.122  9660  9702 I krkr2   : engine_get_memory_stats 2
+03-25 11:16:08.122  9660  9702 I krkr2   : engine_get_memory_stats 3
+03-25 11:16:08.122  9660  9702 I krkr2   : engine_get_memory_stats 4
+03-25 11:16:08.123  9660  9680 E libEGL  : pre_cache appList: com.sina.weibo,com.smile.gifmaker,com.ss.android.article.news,com.ss.android.ugc.aweme,com.taobao.taobao,com.tencent.mm,tv.danmaku.bili,
+03-25 11:16:08.124  9660  9702 I krkr2   : engine_get_memory_stats 5
+03-25 11:16:08.124  9660  9702 I krkr2   : engine_get_memory_stats 6
+03-25 11:16:08.125   738  2580 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+03-25 11:16:08.126  9660  9702 I krkr2   : stats == selfUsedMb == 2957096
+03-25 11:16:08.126  9660  9702 I krkr2   : systemFreeMb == 2856
+03-25 11:16:08.126  9660  9702 I krkr2   : systemTotalMb == 5744
+03-25 11:16:08.126  9660  9702 I krkr2   : graphicCacheBytes == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : graphicCacheLimitBytes == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : xp3SegmentCacheBytes == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : psbCacheBytes == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : psbCacheEntries == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : psbCacheEntryLimit == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : psbCacheHits == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : psbCacheMisses == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : archiveCacheEntries == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : archiveCacheLimit == 128
+03-25 11:16:08.126  9660  9702 I krkr2   : autopathCacheEntries == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : autopathCacheLimit == 256
+03-25 11:16:08.126  9660  9702 I krkr2   : autopathTableEntries == 0
+03-25 11:16:08.126  9660  9702 I krkr2   : [PushStartupLog] engine_open_game_async: queued startup
+03-25 11:16:08.127  9660  9703 I krkr2   : [PushStartupLog] engine_open_game_async: worker started
+03-25 11:16:08.128  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] EngineBootstrap: starting initialization
+03-25 11:16:08.129  9660  9703 E libEGL  : eglInitializeImpl:304 error 3008 (EGL_BAD_DISPLAY)
+03-25 11:16:08.129  9660  9703 E krkr2-egl: eglInitialize failed: 0x3008
+03-25 11:16:08.129  9660  9703 I krkr2   : [PushStartupLog] [core] [error] eglInitialize failed: 0x3000
+03-25 11:16:08.129  9660  9703 I krkr2   : [PushStartupLog] [core] [error] EngineBootstrap: EGL context initialization failed, rendering may not work correctly
+03-25 11:16:08.129  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] TVPInitUIExtension: stub (UI handled by Flutter)
+03-25 11:16:08.131  9660  9703 I krkr2   : [PushStartupLog] [core] [info] EngineBootstrap: initialization complete (1280x720)
+03-25 11:16:08.132  9660  9703 I krkr2   : [PushStartupLog] [core] [info] engine_open_game: runtime initialized, starting application with path: /storage/emulated/0/Download/Spring Days/Data.xp3 (normalized: /storage/emulated/0/Download/Spring Days/Data.xp3)
+03-25 11:16:08.132  9660  9703 I krkr2   : engine_open_game: input='/storage/emulated/0/Download/Spring Days/Data.xp3' normalized='/storage/emulated/0/Download/Spring Days/Data.xp3'
+03-25 11:16:08.132  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] engine_open_game: calling Application->StartApplication...
+03-25 11:16:08.132  9660  9703 I krkr2   : engine_open_game: calling StartApplication('/storage/emulated/0/Download/Spring Days/Data.xp3')
+03-25 11:16:08.132  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: normalizing storage path...
+03-25 11:16:08.132  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: TVPInitScriptEngine...
+03-25 11:16:08.132  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  (info) Data path : file://./storage/emulated/0/download/spring days/savedata/
+03-25 11:16:08.158  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: TVPInitFontNames...
+03-25 11:16:08.165  9660  9680 E OpenGLRenderer: fbcNotifyFrameComplete error: undefined symbol: fbcNotifyFrameComplete
+03-25 11:16:08.165  9660  9680 E OpenGLRenderer: fbcNotifyNoRender error: undefined symbol: fbcNotifyNoRender
+03-25 11:16:08.210   654  1926 E traffic : remove TrafficMobileLimiter whitelist 10070
+03-25 11:16:08.214  7830  7870 E VA_AppStateWatcher: handleMessage: return!
+03-25 11:16:08.295  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:08.742  9660  9703 I krkr2   : [PushStartupLog] [core] [info] loaded system font: /system/fonts/NotoSansCJK-Regular.ttc
+03-25 11:16:09.129   690   798 E UxUtility: notifyAppState error = NULL
+03-25 11:16:09.182  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  Program started on Linux (ARM64)
+03-25 11:16:09.182  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: TVPInitializeBaseSystems...
+03-25 11:16:09.184  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Rebuilding Auto Path Table ...
+03-25 11:16:09.184  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Total 0 file(s) found, 0 file(s) activated. (0ms)
+03-25 11:16:09.184  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: tvpLoadPlugins...
+03-25 11:16:09.196  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: TVPSystemInit...
+03-25 11:16:09.197  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  (info) Total physical memory : 5486563328
+03-25 11:16:09.216  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  (info) Specified option(s) (earlier item has more priority) : (none)
+03-25 11:16:09.216  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] StartApplication: TVPInitializeStartupScript...
+03-25 11:16:09.216  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) ArchiveCache miss: file://./storage/emulated/0/download/spring days/data.xp3
+03-25 11:16:09.222  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Trying to read XP3 virtual file system information from : file://./storage/emulated/0/download/spring days/data.xp3
+03-25 11:16:09.224  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Done. (contains 181 file(s), 191 segment(s))
+03-25 11:16:09.225  9660  9703 I krkr2   : [PushStartupLog] [core] [info] Loading startup script: file://./storage/emulated/0/download/spring days/data.xp3>startup.tjs
+03-25 11:16:09.225  9660  9703 I krkr2   : Loading startup script: file://./storage/emulated/0/download/spring days/data.xp3>startup.tjs
+03-25 11:16:09.242  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Rebuilding Auto Path Table ...
+03-25 11:16:09.243  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  (info) Total 175 file(s) found, 175 file(s) activated. (1ms)
+03-25 11:16:09.248  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  OS : Linux (ARM64)
+03-25 11:16:09.248  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  KAG : 3.27-dev.20060219
+03-25 11:16:09.248  9660  9703 I krkr2   : [PushStartupLog] [core] [info] [TVP Console]  Kirikiri : 2.32.2.426
+03-25 11:16:09.261  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了Config.tjs ，消耗时间(12ms)
+03-25 11:16:09.266  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了UpdateConfig.tjs ，消耗时间(5ms)
+03-25 11:16:09.266  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  KAG System 正在读取中...
+03-25 11:16:09.278  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] Loading Plugin: layerExImage.dll Success
+03-25 11:16:09.278  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了LayerEx.tjs ，消耗时间(13ms)
+03-25 11:16:09.287  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了Utils.tjs ，消耗时间(8ms)
+03-25 11:16:09.298  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:09.299  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了KAGLayer.tjs ，消耗时间(12ms)
+03-25 11:16:09.316  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了ButtonLayer.tjs ，消耗时间(17ms)
+03-25 11:16:09.337  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了SelectLayer.tjs ，消耗时间(21ms)
+03-25 11:16:09.357  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了MapSelectLayer.tjs ，消耗时间(20ms)
+03-25 11:16:09.394  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了DialogLayer.tjs ，消耗时间(38ms)
+03-25 11:16:09.439  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了HistoryLayer.tjs ，消耗时间(44ms)
+03-25 11:16:09.463  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了BGM.tjs ，消耗时间(24ms)
+03-25 11:16:09.474  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了SE.tjs ，消耗时间(10ms)
+03-25 11:16:09.490  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了Movie.tjs ，消耗时间(16ms)
+03-25 11:16:09.508  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了Conductor.tjs ，消耗时间(18ms)
+03-25 11:16:09.539  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了AffineLayer.tjs ，消耗时间(31ms)
+03-25 11:16:09.577  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了ActionLayer.tjs ，消耗时间(38ms)
+03-25 11:16:09.611  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了AnimationLayer.tjs ，消耗时间(35ms)
+03-25 11:16:09.640  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了GraphicLayer.tjs ，消耗时间(28ms)
+03-25 11:16:09.802  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了MessageLayer.tjs ，消耗时间(161ms)
+03-25 11:16:09.818  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了Menus.tjs ，消耗时间(16ms)
+03-25 11:16:09.829  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了DefaultMover.tjs ，消耗时间(11ms)
+03-25 11:16:10.130  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  读取了MainWindow.tjs ，消耗时间(301ms)
+03-25 11:16:10.132  9660  9703 I krkr2   : [PushStartupLog] [core] [debug] [TVP Console]  脚本读取消耗了 883ms 的时间
+03-25 11:16:10.136  9660  9703 I krkr2   : [PushStartupLog] [core] [info] FlutterWindowLayer created: 1280x720
+03-25 11:16:10.136  9660  9703 I krkr2   : [PushStartupLog] [core] [info] TVPCreateAndAddWindow: created FlutterWindowLayer (1280x720)
+03-25 11:16:10.144  9660  9703 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xdd0 in tid 9703 (Thread-6), pid 9660 (utter_app_test2)
+03-25 11:16:10.240  9720  9720 E DEBUG   : failed to read /proc/uptime: Permission denied
+03-25 11:16:10.304  1373  1906 E SensorService: CL_L  VirtualAlspscanAccess packet:hidl_client_pid_1004 use Sensorname:camera_light_Sensor
+03-25 11:16:10.545  9720  9720 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-25 11:16:10.545  9720  9720 F DEBUG   : Build fingerprint: 'Redmi/earth/earth:12/SP1A.210812.016/V13.0.10.0.SCVCNXM:user/release-keys'
+03-25 11:16:10.545  9720  9720 F DEBUG   : Revision: '0'
+03-25 11:16:10.545  9720  9720 F DEBUG   : ABI: 'arm64'
+03-25 11:16:10.545  9720  9720 F DEBUG   : Timestamp: 2026-03-25 11:16:10.239223861+0800
+03-25 11:16:10.545  9720  9720 F DEBUG   : Process uptime: 0s
+03-25 11:16:10.546  9720  9720 F DEBUG   : Cmdline: org.github.krkr2.flutter_app_test2
+03-25 11:16:10.546  9720  9720 F DEBUG   : pid: 9660, tid: 9703, name: Thread-6  >>> org.github.krkr2.flutter_app_test2 <<<
+03-25 11:16:10.546  9720  9720 F DEBUG   : uid: 10435
+03-25 11:16:10.546  9720  9720 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0xdd0
+

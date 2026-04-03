@@ -3,9 +3,9 @@
 
 ## Ref
 * https://github.com/reAAAq/KrKr2-Next  
+* https://github.com/panreyes/pixtudio/tree/master/3rdparty  
 
 # Original README.md
-===
 
 <p align="center">
   <h1 align="center">KrKr2 Next</h1>

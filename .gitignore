@@ -2,7 +2,7 @@
 /**/cmake-build-android/
 /**/cmake-build-android-release/
 /**/cmake-build-android-debug/
-/**/build/
+#/**/build/
 /**/out/
 /**/bin/
 vcpkg_installed/
@@ -13,7 +13,7 @@ vcpkg_installed/
 .gradle/
 .act/
 .devtools
-*.md
+#*.md
 *.lock
 /stats_server
 local.properties

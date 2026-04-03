@@ -1,5 +1,5 @@
 ::@echo off
-@rmdir /s /q android_cdt\libs
+@rmdir /s /q android_adt\libs
 @rmdir /s /q apps\flutter_app\.dart_tool
 @rmdir /s /q apps\flutter_app\android\.gradle
 @rmdir /s /q apps\flutter_app\android\.kotlin

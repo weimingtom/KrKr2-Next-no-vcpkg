@@ -5,7 +5,7 @@
 * https://github.com/reAAAq/KrKr2-Next  
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
 
-## How to build for Android ADT
+## How to build for Android ADT under Windows
 * cd android_adt/jni
 * Double click console.bat
 ```
@@ -21,10 +21,10 @@
 * Use Android ADT to load android_adt/jni/.project
 * Compile apk file and install it to the Android device, **Now only support ARM64 Android device**   
 
-## How to build for Flutter (NOT RECOMMENDED)  
+## How to build for Flutter under Windows (NOT RECOMMENDED)  
 * Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
 * Copy android_adt/libs/arm64-v8a/libengine_api.so to apps/flutter_app/android/app/libs/arm64-v8a/libengine_api.so
-* Double click apps/flutter_app/console.bat (modify it by yourself)  
+* Double click apps/flutter_app/console.bat (modify the paths ANDROID_HOME and PATH in console.bat by yourself)  
 ```
 @set PUB_HOSTED_URL=https://pub.flutter-io.cn
 @set FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn

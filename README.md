@@ -1,9 +1,43 @@
 # KrKr2-Next-no-vcpkg
-[Very WIP and Not Recommended] My KrKr2-Next fork for Android, without vcpkg, flutter, ffmpeg and boost
+[Very WIP and NOT Recommended] My KrKr2-Next fork for Android, without vcpkg, flutter, ffmpeg and boost
 
 ## Ref
 * https://github.com/reAAAq/KrKr2-Next  
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
+
+## How to build for Android ADT
+* cd android_adt/jni
+* Double click console.bat
+```
+::@set PATH=D:\android-ndk-r9c;%PATH%
+::@set PATH=D:\android-ndk-r10e;%PATH%
+@set PATH=D:\home\soft\android_studio_sdk\ndk\25.2.9519653;%PATH%
+@set NDK_MODULE_PATH=%CD%\..\..\cpp
+@cmd
+```
+* ndk-build clean
+* ndk-build -j8 (or ndk-build NDK_DEBUG=1 -j8, see adb_logcat_and_debug_crash.txt)
+* Get libengine_api.so under android_adt/libs/arm64-v8a/libengine_api.so
+* Use Android ADT to load android_adt/jni/.project
+
+## How to build for Flutter (NOT Recommanded)  
+* Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
+* Copy android_adt/libs/arm64-v8a/libengine_api.so to apps/flutter_app/android/app/libs/arm64-v8a/libengine_api.so
+* Double click apps/flutter_app/console.bat (modify it by yourself)  
+```
+@set PUB_HOSTED_URL=https://pub.flutter-io.cn
+@set FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+@set ANDROID_HOME=D:\home\soft\android_studio_sdk
+@set PATH=D:\flutter_windows_3.41.4-stable\flutter\bin;C:\Program Files\Git\bin;%PATH%
+@cmd
+
+::flutter --version
+::cd xxx\apps\flutter_app
+::(not need) flutter pub get
+::flutter build apk --verbose
+```
+* flutter build apk (no need to run flutter pub get)
+* Get apk file, install it to the Android device, **only support ARM64 Android device**        
 
 # Original README.md
 

@@ -6,8 +6,8 @@
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
 
 ## How to build for Android ADT under Windows
-* cd android_adt/jni
-* Double click console.bat
+* cd android_adt/jni 
+* Double click console.bat (modify the path %PATH% points to your Android NDK path in console.bat by yourself)  
 ```
 ::@set PATH=D:\android-ndk-r9c;%PATH%
 ::@set PATH=D:\android-ndk-r10e;%PATH%
@@ -24,7 +24,7 @@
 ## How to build for Flutter under Windows (NOT RECOMMENDED)  
 * Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
 * Copy android_adt/libs/arm64-v8a/libengine_api.so to apps/flutter_app/android/app/libs/arm64-v8a/libengine_api.so
-* Double click apps/flutter_app/console.bat (modify the paths ANDROID_HOME and PATH in console.bat by yourself)  
+* Double click apps/flutter_app/console.bat (modify the paths %ANDROID_HOME% and %PATH% point to your Android SDK and Flutter SDK and Git in console.bat by yourself)  
 ```
 @set PUB_HOSTED_URL=https://pub.flutter-io.cn
 @set FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn

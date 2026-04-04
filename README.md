@@ -19,8 +19,9 @@
 * ndk-build -j8 (or ndk-build NDK_DEBUG=1 -j8, see adb_logcat_and_debug_crash.txt)
 * Get libengine_api.so under android_adt/libs/arm64-v8a/libengine_api.so
 * Use Android ADT to load android_adt/jni/.project
+* Compile apk file and install it to the Android device, **Now only support ARM64 Android device**   
 
-## How to build for Flutter (NOT Recommanded)  
+## How to build for Flutter (NOT RECOMMENDED)  
 * Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
 * Copy android_adt/libs/arm64-v8a/libengine_api.so to apps/flutter_app/android/app/libs/arm64-v8a/libengine_api.so
 * Double click apps/flutter_app/console.bat (modify it by yourself)  
@@ -37,7 +38,7 @@
 ::flutter build apk --verbose
 ```
 * flutter build apk (no need to run flutter pub get)
-* Get apk file, install it to the Android device, **only support ARM64 Android device**        
+* Get apk file, install it to the Android device, **Now only support ARM64 Android device**        
 
 # Original README.md
 

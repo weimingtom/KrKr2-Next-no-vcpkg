@@ -1,5 +1,5 @@
 # KrKr2-Next-no-vcpkg
-[Very WIP and NOT Recommended] My KrKr2-Next fork for Android, without vcpkg, flutter, ffmpeg and boost
+[Very WIP and NOT RECOMMENDED] My KrKr2-Next fork for Android, without vcpkg, flutter, ffmpeg and boost
 
 ## Ref
 * https://github.com/reAAAq/KrKr2-Next  

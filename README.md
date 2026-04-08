@@ -27,7 +27,7 @@ see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_a
 * Compile the non-flutter apk file and install it to the Android device, **Now only support ARM64 Android device**   
 
 ## How to build for Flutter under Windows (NOT RECOMMENDED)  
-* Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
+* Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build non-flutter apk with Android ADT under Windows】 
 * Copy android_adt/libs/arm64-v8a/libengine_api.so to apps/flutter_app/android/app/libs/arm64-v8a/libengine_api.so
 * Double click apps/flutter_app/console.bat (modify the paths %ANDROID_HOME% and %PATH% point to your Android SDK and Flutter SDK and Git in console.bat by yourself)  
 ```

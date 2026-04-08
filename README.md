@@ -19,6 +19,11 @@
 * ndk-build -j8 (or ndk-build NDK_DEBUG=1 -j8, see adb_logcat_and_debug_crash.txt)
 * Get libengine_api.so under android_adt/libs/arm64-v8a/libengine_api.so
 * Use Android ADT to load android_adt/jni/.project
+* Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device  
+```
+_bridge.openGameAsync("/storage/emulated/0/Download/Spring Days/Data.xp3", null); //this should be a tail call
+```
+see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_adt/src/org/github/krkr2/flutter_app/MainActivity.java  
 * Compile apk file and install it to the Android device, **Now only support ARM64 Android device**   
 
 ## How to build for Flutter under Windows (NOT RECOMMENDED)  

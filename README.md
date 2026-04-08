@@ -18,7 +18,7 @@
 * ndk-build clean
 * ndk-build -j8 (or ndk-build NDK_DEBUG=1 -j8, see adb_logcat_and_debug_crash.txt)
 * Get libengine_api.so under android_adt/libs/arm64-v8a/libengine_api.so
-* Use Android ADT to load android_adt/jni/.project
+* Use Android ADT to load android_adt/.project
 * Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device  
 ```
 _bridge.openGameAsync("/storage/emulated/0/Download/Spring Days/Data.xp3", null); //this should be a tail call

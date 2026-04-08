@@ -24,7 +24,7 @@
 _bridge.openGameAsync("/storage/emulated/0/Download/Spring Days/Data.xp3", null); //this should be a tail call
 ```
 see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_adt/src/org/github/krkr2/flutter_app/MainActivity.java  
-* Compile apk file and install it to the Android device, **Now only support ARM64 Android device**   
+* Compile the non-flutter apk file and install it to the Android device, **Now only support ARM64 Android device**   
 
 ## How to build for Flutter under Windows (NOT RECOMMENDED)  
 * Build android_adt/libs/arm64-v8a/libengine_api.so through ndk-build in 【How to build for Android ADT】 
@@ -44,7 +44,7 @@ see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_a
 ```
 * flutter build apk (no need to run flutter pub get)
 * Get apk file, install it to the Android device, **Now only support ARM64 Android device**        
-* Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device, then open it with this installed apk    
+* Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device, then open it with this installed flutter apk    
 
 # Original README.md
 

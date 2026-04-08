@@ -5,7 +5,7 @@
 * https://github.com/reAAAq/KrKr2-Next  
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
 
-## How to build for Android ADT under Windows
+## How to build non-flutter apk with Android ADT under Windows
 * cd android_adt/jni 
 * Double click console.bat (modify the path %PATH% points to your Android NDK path in console.bat by yourself)  
 ```

@@ -47,7 +47,7 @@ see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_a
 * Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device, then open it with this installed flutter apk    
 * NOT RECOMMENDED, because you should build the apk with original code, 
 https://github.com/reAAAq/KrKr2-Next  
-Also, you can try to modify this code here, if you get a black EGL screen   
+Also, you can try to modify this code here to directly call "display = eglGetDisplay(EGL_DEFAULT_DISPLAY);" without any fallback, if you get a black EGL screen   
 https://github.com/reAAAq/KrKr2-Next/blob/9b4d67e71498f87fda8718903763b6b8a792ed6a/cpp/core/visual/ogl/krkr_egl_context.cpp    
 ```
 EGLDisplay EGLContextManager::AcquireAngleDisplay(AngleBackend& backend) {

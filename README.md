@@ -44,6 +44,7 @@ see also https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/android_a
 ```
 * flutter build apk (no need to run flutter pub get)
 * Get apk file, install it to the Android device, **Now only support ARM64 Android device**        
+* Put https://github.com/weimingtom/KrKr2-Next-no-vcpkg/blob/master/_testdata/data.xp3 to "/storage/emulated/0/Download/Spring Days/Data.xp3" in the ARM64 Android device, then open it with this installed apk    
 
 # Original README.md
 

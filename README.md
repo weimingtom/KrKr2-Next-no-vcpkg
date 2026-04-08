@@ -1,9 +1,12 @@
 # KrKr2-Next-no-vcpkg
 [Very WIP and NOT RECOMMENDED] My KrKr2-Next fork for Android, without vcpkg, flutter, ffmpeg and boost
 
-## Ref
+## References  
 * https://github.com/reAAAq/KrKr2-Next  
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
+* https://github.com/weimingtom/eriri/blob/master/myjnistudy/doc/jniexamples.zip
+* Spring Days.rar, https://code.google.com/archive/p/godxq1986/downloads  
+* Spring Days.rar, https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/godxq1986/Spring%20Days.rar  
 
 ## How to build non-flutter apk with Android ADT under Windows
 * cd android_adt/jni 

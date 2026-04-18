@@ -3,6 +3,7 @@
 
 ## References  
 * https://github.com/reAAAq/KrKr2-Next  
+* https://github.com/reAAAq/KrKr2-Next/tree/9b4d67e71498f87fda8718903763b6b8a792ed6a  
 * https://github.com/panreyes/pixtudio/tree/master/3rdparty  
 * https://github.com/weimingtom/eriri/blob/master/myjnistudy/doc/jniexamples.zip
 * Spring Days.rar, https://code.google.com/archive/p/godxq1986/downloads  

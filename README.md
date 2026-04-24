@@ -92,6 +92,9 @@ EGLDisplay EGLContextManager::AcquireAngleDisplay(AngleBackend& backend) {
     return display;
 ```
 
+## (WIP, running failed) How to build for Linux
+* See also Makefile
+
 ## weibo record
 ```
 2026-2-27

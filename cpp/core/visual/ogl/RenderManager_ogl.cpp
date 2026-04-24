@@ -62,7 +62,7 @@ static void ShowInMessageBox(const char *format, ...) {
     va_end(args);
 }
 
-#if 0
+#if defined(LINUX) // 0
 #undef CHECK_GL_ERROR_DEBUG
 #define CHECK_GL_ERROR_DEBUG()                                                 \
     do {                                                                       \
@@ -2949,10 +2949,22 @@ protected:
         TVPInitGLExtensionInfo();
         TVPInitGLExtensionFunc();
 
+#if defined(LINUX)
+//_FBO = -1;
+#endif
         glGenFramebuffers(1, &_FBO);
+#if defined(LINUX)
+if (!_FBO) {
+GLenum __error = glGetError();
+spdlog::error("Fail to create FBO: {}", __error);
+}
+#endif
         glGenRenderbuffers(1, &_stencil_FBO);
         if(!_FBO) {
             TVPConsoleLog("Fail to create FBO");
+#if defined(LINUX)
+spdlog::error("Fail to create FBO");
+#endif            
             const char *reason = nullptr;
             GLenum errcode = glCheckFramebufferStatus(GL_FRAMEBUFFER);
 #define SATATUE_CASE(x)                                                        \

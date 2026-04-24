@@ -251,9 +251,11 @@ bool EGLContextManager::MakeCurrent() {
     if (target == EGL_NO_SURFACE) {
         return false;
     }
-//#if defined(LINUX)
-
-//#else    
+#if defined(LINUX)
+    //see platforms/linux/main.cpp
+    //glfwMakeContextCurrent(window);
+spdlog::error("skip eglMakeCurrent, see glfwMakeContextCurrent(window) in platforms/linux/main.cpp");
+#else    
     if (!eglMakeCurrent(display_, target, target, context_)) {
         spdlog::error("eglMakeCurrent failed: 0x{:x}", eglGetError());
 #if defined(LINUX)
@@ -262,7 +264,7 @@ throw;//exit(-4);
 #endif        
         return false;
     }
-//#endif    
+#endif    
     return true;
 }
 

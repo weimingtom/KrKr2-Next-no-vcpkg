@@ -24,6 +24,22 @@
 ## b krkr_egl_context.cpp:111
 ##if (!eglMakeCurrent(display_, target, target, context_)) {
 
+## gedit cpp/core/environ/linux/main.cpp &
+## gedit cpp/core/visual/ogl/krkr_egl_context.cpp &
+## [2026-04-24 10:59:23.981] [core] [error] eglMakeCurrent failed: 0x3002
+## [2026-04-24 10:59:23.981] [core] [error] please check eglCreateContext()
+## gedit platforms/linux/test.cpp &
+## gedit platforms/linux/main.cpp &
+
+## gedit bridge/engine_api/src/engine_api.cpp &
+## [2026-04-24 10:59:23.980] [core] [info] engine_tick: EGL valid, AttachNativeWindow 800x600
+## [2026-04-24 10:59:23.981] [core] [info] engine_tick: AttachNativeWindow success
+## [2026-04-24 10:59:23.981] [core] [info] engine_tick: auto-attached ANativeWindow 800x600
+
+## gedit cpp/core/visual/ogl/RenderManager_ogl.cpp &
+## [2026-04-24 11:18:08.098] [core] [debug] [TJS Console] Fail to create FBO
+
+
 CC  := gcc
 CPP := g++
 AR  := ar cru
@@ -353,7 +369,7 @@ LDFLAGS += -luchardet
 LDFLAGS += -lopenal 
 LDFLAGS += -lSDL2
 LDFLAGS += -lEGL 
-LDFLAGS += -lGLESv1_CM 
+###LDFLAGS += -lGLESv1_CM 
 LDFLAGS += -lGLESv2 
 ###LDFLAGS += -lOpenSLES 
 LDFLAGS += -lz 

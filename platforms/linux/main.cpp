@@ -127,7 +127,30 @@ engine_memory_stats_t *stats = getMemoryStats();
 //Log.i("krkr2", "stats == " + stats);
 
 //"/home/wmt/KrKr2-Next/_testdata/"
-openGameAsync("/home/wmt/KrKr2-Next/_testdata/Data.xp3", "/home/wmt/KrKr2-Next/_testdata/");
+//"/home/wmt/KrKr2-Next/_testdata/Data.xp3"
+//"/home/wmt/KrKr2-Next/_testdata/"
+
+//cpp/core/environ/linux/Platform.cpp
+    char buffer[PATH_MAX] = {0};
+    char buffer2[PATH_MAX] = {0};
+    ssize_t len = readlink("/proc/self/exe", buffer, sizeof(buffer) - 1);
+    if (len == -1) {
+	//skip
+        throw;
+    } else {
+        char *pos = strrchr(buffer, '/');
+	if (pos == NULL) {
+		throw;	
+	} else {
+	    	*pos = '\0'; // 手动添加终止符
+                strcpy(buffer2, buffer);
+		printf("====================buffer %s\n", buffer);
+	    	strcat(buffer, "/_testdata/Data.xp3");
+	}
+    }
+//"./_testdata/Data.xp3"
+//"./_testdata/"
+openGameAsync(buffer, buffer2);
 
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();

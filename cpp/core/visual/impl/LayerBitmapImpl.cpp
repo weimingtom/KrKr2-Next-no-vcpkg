@@ -492,8 +492,12 @@ tTVPNativeBaseBitmap::tTVPNativeBaseBitmap(const tTVPNativeBaseBitmap &r) {
 }
 //---------------------------------------------------------------------------
 tTVPNativeBaseBitmap::~tTVPNativeBaseBitmap() {
+#if 0 //MY_USE_MINLIB && defined(LINUX)
+//skip
+#else
     if(Bitmap)
         Bitmap->Release();
+#endif        
     if(PrerenderedFont)
         PrerenderedFont->Release();
 

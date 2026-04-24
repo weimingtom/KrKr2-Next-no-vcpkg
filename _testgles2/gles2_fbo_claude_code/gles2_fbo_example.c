@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <unistd.h> //for usleep
 
 static const char *vert_shader_src =
     "attribute vec4 a_position;\n"
@@ -193,6 +194,8 @@ int main(int argc, char **argv) {
         EGL_NONE
     };
 
+(void)argc;
+(void)argv;
     display = eglGetDisplay(EGL_DEFAULT_DISPLAY);
     eglInitialize(display, NULL, NULL);
     eglChooseConfig(display, config_attrs, &config, 1, NULL);

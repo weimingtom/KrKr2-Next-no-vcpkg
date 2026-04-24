@@ -83,7 +83,11 @@ static engine_result_t destroy() {
 #endif
 
 int main(int argc, char **argv) {
+#if MY_USE_MINLIB_NO_GTK
+    //skip
+#else
     gtk_init(&argc, &argv);
+#endif    
     spdlog::set_level(spdlog::level::debug);
 
     static auto core_logger = spdlog::stdout_color_mt("core");
@@ -142,10 +146,11 @@ engine_memory_stats_t *stats = getMemoryStats();
 	if (pos == NULL) {
 		throw;	
 	} else {
-	    	*pos = '\0'; // 手动添加终止符
+	    	*pos = '\0';
                 strcpy(buffer2, buffer);
 		printf("====================buffer %s\n", buffer);
 	    	strcat(buffer, "/_testdata/Data.xp3");
+	    	strcat(buffer2, "/_testdata/");
 	}
     }
 //"./_testdata/Data.xp3"

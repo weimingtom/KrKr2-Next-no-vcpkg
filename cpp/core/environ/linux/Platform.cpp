@@ -139,6 +139,10 @@ std::string TVPGetCurrentLanguage() {
 
 int TVPShowSimpleMessageBox(const ttstr &text, const ttstr &caption,
                             const std::vector<ttstr> &vecButtons) {
+#if MY_USE_MINLIB_NO_GTK                            
+    spdlog::get("core")->error("TVPShowSimpleMessageBox, {}", text.AsStdString().c_str());
+    return 0;
+#else
     GtkWidget *dialog = nullptr;
     DEFER({
         if(dialog) {
@@ -180,6 +184,7 @@ int TVPShowSimpleMessageBox(const ttstr &text, const ttstr &caption,
             break;
     }
     return -1;
+#endif    
 }
 
 extern "C" int TVPShowSimpleMessageBox(const char *pszText,

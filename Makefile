@@ -39,6 +39,21 @@
 ## gedit cpp/core/visual/ogl/RenderManager_ogl.cpp &
 ## [2026-04-24 11:18:08.098] [core] [debug] [TJS Console] Fail to create FBO
 
+## b tjsInterCodeExec.cpp:823
+## [2026-04-25 01:03:45.464] [core] [debug] [TVP Console]  -- Disassembled VM code --
+
+## gedit cpp/core/environ/linux/Platform.cpp &
+## 151
+## /home/wmt/KrKr2-Next-no-vcpkg/cpp/core/environ/linux/Platform.cpp:151:(.text+0xbff): undefined reference to `gtk_message_dialog_new'
+
+## gedit cpp/core/visual/impl/LayerBitmapImpl.cpp &
+## tTVPNativeBaseBitmap::~tTVPNativeBaseBitmap() {
+###if MY_USE_MINLIB
+##//skip
+###else
+##    if(Bitmap)
+##        Bitmap->Release();
+###endif   
 
 CC  := gcc
 CPP := g++
@@ -100,6 +115,7 @@ CPPFLAGS += -DLINUX
 
 CPPFLAGS += -DMY_USE_MINLIB=1
 CPPFLAGS += -DMY_USE_MINLIB_SDL2=1
+CPPFLAGS += -DMY_USE_MINLIB_NO_GTK=1
 CPPFLAGS += -DMY_USE_DISABLE_CRASH_SIGNAL_HANDLE=1
 CPPFLAGS += -DUNICODE
 CPPFLAGS += -DTJS_TEXT_OUT_CRLF
@@ -346,7 +362,7 @@ LDFLAGS :=
 
 ###pkg-config --libs glfw3
 LDFLAGS += -lglfw
-LDFLAGS += `pkg-config --libs gtk+-2.0`
+#LDFLAGS += `pkg-config --libs gtk+-2.0`
 ###-lgtk-x11-2.0 -lgdk-x11-2.0 -lpangocairo-1.0 -latk-1.0 -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lharfbuzz -lfontconfig -lfreetype 
 LDFLAGS += -lonig 
 LDFLAGS += -lpng 
